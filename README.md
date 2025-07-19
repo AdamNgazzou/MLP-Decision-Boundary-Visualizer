@@ -17,6 +17,12 @@ The goal is to visualize how increasing the number of neurons in the hidden laye
 The dataset is generated using `make_circles` from `sklearn.datasets`.  
 It consists of 300 two-dimensional points grouped into two classes (inner and outer circle).
 
-```python
-from sklearn.datasets import make_circles
-X, y = make_circles(n_samples=300, noise=0.1, factor=0.5, random_state=0)
+## ⚙️ How It Works
+
+1. A neural network is trained on the generated data.
+2. A grid of points is used to visualize the predicted class for each region.
+3. The decision boundary and classified data points are plotted.
+4. A slider lets you change the **hidden layer size** from 1 to 10 neurons.
+5. The plot updates automatically to show how the network learns with different capacities.
+
+
