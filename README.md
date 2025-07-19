@@ -5,6 +5,7 @@ An interactive demo that shows how the size of the hidden layer in a neural netw
 ## 📊 Overview
 
 This project uses:
+
 - A **synthetic dataset** of two concentric circles generated with `make_circles`.
 - A **Multi-Layer Perceptron (MLP)** classifier from scikit-learn.
 - **Matplotlib** for visualization.
@@ -25,4 +26,4 @@ It consists of 300 two-dimensional points grouped into two classes (inner and ou
 4. A slider lets you change the **hidden layer size** from 1 to 10 neurons.
 5. The plot updates automatically to show how the network learns with different capacities.
 
-
+![Demo](./image.png)
